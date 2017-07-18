@@ -1,4 +1,4 @@
-Hellooooofrom mpu6050 import mpu6050
+from mpu6050 import mpu6050
 import RPi.GPIO as GPIO 
 import time
 import os
