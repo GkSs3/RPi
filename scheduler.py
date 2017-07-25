@@ -57,7 +57,6 @@ while(1):
       time.sleep(2)
       now1=datetime.strftime(datetime.now(),"%H:%M:%S")
       if(now1>=night):
-         f.close()
          print("Recording Completed")
          function(str=fname)
          break
